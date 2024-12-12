@@ -1,5 +1,5 @@
 [org.cinnamon]
-favorite-apps=['aptosid-aptosid-irc.desktop', 'aptosid-xdg-browser-launcher.desktop']
+favorite-apps=['aptosid-aptosid-irc.desktop', 'aptosid-xdg-browser-launcher.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']
 app-menu-icon-name='aptosid-logo-cinnamon'
 
 [org.cinnamon.desktop.wm.preferences]
