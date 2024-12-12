@@ -1,0 +1,24 @@
+Source: aptosid-settings-cinnamon
+Section: graphics
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Uploaders: Kel Modderman <kelvmod@gmail.com>
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Vcs-Git: https://github.com/fullstory/aptosid-settings-cinnamon.git
+Vcs-Browser: https://github.com/fullstory/aptosid-settings-cinnamon
+
+Package: aptosid-settings-cinnamon
+Depends: ${misc:Depends},
+ aptosid-art-wallpaper-nemesis
+Recommends: xdg-browser-launcher,
+ fonts-noto
+Architecture: all
+Description: provide default Cinnamon settings for aptosid
+ Provides default settings for appearance and applications of the Cinnamon
+ Desktop Environment in aptosid.
+ .
+ This overrides Cinnamon's defaults used for new users, all settings remain
+ configurable by the local user and don't override already existing user
+ profiles.
